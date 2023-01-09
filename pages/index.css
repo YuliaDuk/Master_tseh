@@ -15,6 +15,14 @@
 @import url(../blocks/mainpage/__list/mainpage__list.css);
 @import url(../blocks/mainpage/__subtitle/mainpage__subtitle.css);
 @import url(../blocks/mainpage/__button/mainpage__button.css);
+@import url(../blocks/stepsofwork/stepsofwork.css);
+@import url(../blocks/stepsofwork/__title/stepsofwork__title.css);
+@import url(../blocks/stepsofwork/__list/stepsofwork__list.css);
+@import url(../blocks/stepsofwork/__steps/stepsofwork__steps.css);
+@import url(../blocks/stepsofwork/__step/stepsofwork__step.css);
+@import url(../blocks/stepsofwork/__number/stepsofwork__number.css);
+@import url(../blocks/stepsofwork/__description/stepsofwork__description.css);
+@import url(../blocks/stepsofwork/__description/_bold/stepsofwork__description_bold.css);
 @import url(../blocks/information/information.css);
 @import url(../blocks/information/__item/information__item.css);
 @import url(../blocks/information/__icon/information__icon.css);

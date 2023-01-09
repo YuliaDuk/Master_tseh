@@ -1,0 +1,9 @@
+.stepsofwork__list{
+    margin: 0;
+    padding: 40px 30px 0 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+
+    list-style: none;
+}

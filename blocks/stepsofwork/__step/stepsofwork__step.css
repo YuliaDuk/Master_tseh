@@ -1,0 +1,12 @@
+.stepsofwork__step{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

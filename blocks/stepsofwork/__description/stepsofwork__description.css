@@ -1,10 +1,10 @@
-.mainpage__subtitle{
+.stepsofwork__description{
     margin: 0;
-    padding: 5px 15px 0 15px;
+    padding: 15px 0;
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 22px;
     text-align: center;
     letter-spacing: 0em;
 }
