@@ -1,11 +1,9 @@
-.information{
-    padding: 150px 0 0 0;
+.photo-grid{
     margin: 0 auto;
+    padding: 150px 0 0 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, 390px);
-    column-gap: 20px;
-    row-gap: 100px;
-    background-color: white;
+    gap: 20px;
     justify-content: center;
- 
+    background-color: white;
 }
