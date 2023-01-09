@@ -1,4 +1,11 @@
 .information{
-    padding: 0;
-    margin: 0;
+    padding: 100px 0 0 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 390px);
+    column-gap: 20px;
+    row-gap: 40px;
+    background-color: white;
+    justify-content: center;
+ 
 }

@@ -16,4 +16,8 @@
 @import url(../blocks/mainpage/__subtitle/mainpage__subtitle.css);
 @import url(../blocks/mainpage/__button/mainpage__button.css);
 @import url(../blocks/information/information.css);
+@import url(../blocks/information/__item/information__item.css);
+@import url(../blocks/information/__icon/information__icon.css);
+@import url(../blocks/information/__title/information__title.css);
+@import url(../blocks/information/__subtitle/information__subtitle.css);
 /* *{border: 1px solid red} */
