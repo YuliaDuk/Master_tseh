@@ -1,0 +1,33 @@
+.mainpage{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 1280px;
+    height: calc(100vw * (960/1280));
+    max-height: 960px;
+    background-image: url(../../images/mainpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mainpage::after{
+    content: " ";
+    background-color: #2A2C2F;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.mainpage::before{
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(transparent, rgb(37, 37, 44), transparent);
+    top: -15px;
+    right: 0;
+}

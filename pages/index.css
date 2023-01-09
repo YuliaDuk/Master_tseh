@@ -8,4 +8,12 @@
 @import url(../blocks/header/__element/header__element.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/mainpage/mainpage.css);
+@import url(../blocks/mainpage/__title/mainpage__title.css);
+@import url(../blocks/mainpage/__lists/mainpage__lists.css);
+@import url(../blocks/mainpage/__list/mainpage__list.css);
+@import url(../blocks/mainpage/__subtitle/mainpage__subtitle.css);
+@import url(../blocks/mainpage/__button/mainpage__button.css);
+@import url(../blocks/information/information.css);
 /* *{border: 1px solid red} */
