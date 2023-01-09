@@ -10,3 +10,16 @@
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 980px) {
+    .stepsofwork__step{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (max-width: 888px) {
+    .stepsofwork__step{
+        width: 30px;
+        height: 30px;
+    }
+    
+}

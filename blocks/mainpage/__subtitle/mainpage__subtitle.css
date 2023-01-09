@@ -8,3 +8,15 @@
     text-align: center;
     letter-spacing: 0em;
 }
+@media screen and (max-width: 1100px) {
+    .mainpage__subtitle{
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mainpage__subtitle{
+        font-size: 13px;
+        line-height: 15px;
+    }
+}

@@ -3,7 +3,26 @@
     padding: 40px 30px 0 30px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
     gap: 35px;
-
     list-style: none;
+}
+@media screen and (max-width: 1100px) {
+    .stepsofwork__list{
+        padding: 15px 15px 0 15px;
+    }
+}
+@media screen and (max-width: 888px) {
+    .stepsofwork__list{
+        grid-template-columns: repeat(auto-fit, 300px);
+        padding: 10px 5px 20px 5px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .stepsofwork__list{
+        grid-template-columns: repeat(auto-fit, 200px);
+        gap: 20px;
+        padding: 20px 10px 0 10px;
+    }
+    
 }

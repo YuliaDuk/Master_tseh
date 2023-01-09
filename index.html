@@ -32,8 +32,8 @@
                         </li>
                     </ul>
                 </nav>
+                <button class="header__button" type="button">Меню</button>
             </div>
-
         </header>
         <main class="content">
             <section class="mainpage">
@@ -44,7 +44,7 @@
                     <li class="mainpage__list"><p class="mainpage__subtitle">Высокое качество комлектующих</p></li>
                 </ul>
                 <button class="mainpage__button" type="button">Связаться с нами</button>
-                <article class="stepsofwork">
+                <article class="stepsofwork stepsofwork_type_mainpage">
                     <h2 class="stepsofwork__title">Этапы работ</h2>
                     <ul class="stepsofwork__list">
                         <li class="stepsofwork__steps">
@@ -77,7 +77,50 @@
                         </li>
                     </ul>
                 </article>
-                
+            </section>
+            <article class="stepsofwork stepsofwork_type_separate">
+                <h2 class="stepsofwork__title">Этапы работ</h2>
+                <ul class="stepsofwork__list">
+                    <li class="stepsofwork__steps">
+                        <div class="stepsofwork__step">
+                            <p class="stepsofwork__number">1</p>
+                        </div>
+                        <p class="stepsofwork__description stepsofwork__description_bold">Этап 1 - Свяжитесь с нами</p>
+                        <p class="stepsofwork__description">Свяжитесь с нами любым удобным для Вас способом. Мы проконсультируем по предстоящим работам, ответим на Ваши вопросы</p>
+                    </li>
+                    <li class="stepsofwork__steps">
+                        <div class="stepsofwork__step">
+                            <p class="stepsofwork__number">2</p>
+                        </div>
+                        <p class="stepsofwork__description stepsofwork__description_bold">Этап 2 - Выезд для замера</p>
+                        <p class="stepsofwork__description">При необходимости наш специалист приедет к Вам, сделает все необходимые замеры, уточнит все детали</p>
+                    </li>
+                    <li class="stepsofwork__steps">
+                        <div class="stepsofwork__step">
+                            <p class="stepsofwork__number">3</p>
+                        </div>
+                        <p class="stepsofwork__description stepsofwork__description_bold">Этап 3 - Заключение договора</p>
+                        <p class="stepsofwork__description">Рассчитаем точную стоимость работ с указанием материалов и сроков. Заключаем договор</p>
+                    </li>
+                    <li class="stepsofwork__steps">
+                        <div class="stepsofwork__step">
+                            <p class="stepsofwork__number">4</p>
+                        </div>
+                        <p class="stepsofwork__description stepsofwork__description_bold">Этап 4 - Выполнение работ</p>
+                        <p class="stepsofwork__description">Реализуем проект в согласованные сроки</p>
+                    </li>
+                </ul>
+            </article>
+            <section class="photo-grid">
+                <img src="./images/photo-grid1.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid2.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid3.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid4.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid5.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid6.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid7.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid8.jpg" alt="Пример работы" class="photo-grid__img">
+                <img src="./images/photo-grid9.jpg" alt="Пример работы" class="photo-grid__img">
             </section>
             <section class="information">
                 <div class="information__item">
@@ -110,20 +153,9 @@
                     <h2 class="information__title">Оплата</h2>
                 </div>
             </section>
-            <section class="photo-grid">
-                <img src="./images/photo-grid1.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid2.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid3.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid4.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid5.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid6.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid7.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid8.jpg" alt="Пример работы" class="photo-grid__img">
-                <img src="./images/photo-grid9.jpg" alt="Пример работы" class="photo-grid__img">
-
-            </section>
+            
         </main>
-        <footer class="footer">
+        <!-- <footer class="footer">
             <div class="footer__contacts">
                 <h3 class="footer__heading">Телефоны</h3>
                 <div class="footer__tels">
@@ -147,7 +179,7 @@
                   <a class="footer__social-link" href="#"><img class="footer__social-icon" src="./images/telegram.svg" alt="Логотип Телеграм">Telegram</a>
                 </div>
               </div>
-        </footer>
+        </footer> -->
     </div>
     <script src="./scripts/index.js"></script>
 </body>

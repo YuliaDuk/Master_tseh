@@ -8,3 +8,10 @@
     text-align: center;
     letter-spacing: 0em;
 }
+@media screen and (max-width: 888px) {
+    .stepsofwork__number{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+}

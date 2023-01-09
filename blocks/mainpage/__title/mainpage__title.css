@@ -1,7 +1,6 @@
 .mainpage__title{
     margin: 0;
-    padding:0;
-    /* padding: 45px 15px 40px 15px; */
+    padding: 0 15px;
     font-size: 60px;
     font-weight: 800;
     line-height: 65px;
@@ -10,5 +9,16 @@
     color: white;
     text-transform: uppercase;
     z-index: 2;
-
+}
+@media screen and (max-width: 650px) {
+    .mainpage__title{
+        font-size: 30px;
+        line-height: 33px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .mainpage__title{
+        font-size: 20px;
+        line-height: 23px;
+    }
 }

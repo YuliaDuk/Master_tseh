@@ -9,3 +9,16 @@
     text-transform: uppercase;
     letter-spacing: 0em;
 }
+@media screen and (max-width: 1100px) {
+    .stepsofwork__title{
+        font-size: 20px;
+        line-height: 23px;
+    } 
+}
+@media screen and (max-width: 888px) {
+    .stepsofwork__title{
+        font-size: 13px;
+        font-weight: 15px;
+    }
+    
+}

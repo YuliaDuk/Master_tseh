@@ -8,3 +8,10 @@
     text-align: center;
     text-transform: uppercase;
 }
+@media screen and (max-width: 888px) {
+    .information__title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+}

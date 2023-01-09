@@ -1,0 +1,9 @@
+.stepsofwork_type_mainpage{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 888px) {
+    .stepsofwork_type_mainpage{
+        display: none;
+    }
+}

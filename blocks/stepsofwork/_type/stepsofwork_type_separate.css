@@ -1,0 +1,11 @@
+.stepsofwork_type_separate{
+    display: none;
+}
+@media screen and (max-width: 888px) {
+    .stepsofwork_type_separate{
+        display: flex;
+        flex-direction: column;
+        filter: invert(100%);
+        background-color: rgb(9%, 9%, 9%);   
+    }
+}
