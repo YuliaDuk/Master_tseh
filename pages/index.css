@@ -22,4 +22,14 @@
 @import url(../blocks/information/__subtitle/information__subtitle.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__img/photo-grid__img.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/social/footer__social.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__tels/footer__tels.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__docs/footer__docs.css);
 /* *{border: 1px solid red} */
