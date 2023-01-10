@@ -13,5 +13,11 @@
         font-size: 16px;
         line-height: 19px;
     }
-    
+}
+@media screen and (max-width: 650px) {
+    .information__title{
+        font-size: 12px;
+        line-height: 15px;
+
+    }  
 }

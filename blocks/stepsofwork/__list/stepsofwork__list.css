@@ -14,15 +14,14 @@
 }
 @media screen and (max-width: 888px) {
     .stepsofwork__list{
-        grid-template-columns: repeat(auto-fit, 300px);
+        gap: 15px;
         padding: 10px 5px 20px 5px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 550px) {
     .stepsofwork__list{
-        grid-template-columns: repeat(auto-fit, 200px);
-        gap: 20px;
-        padding: 20px 10px 0 10px;
-    }
-    
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 10px 8px 15px 8px;
+    }  
 }

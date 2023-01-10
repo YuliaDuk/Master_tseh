@@ -2,24 +2,29 @@
     padding: 50px 0 0 0;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 390px);
-    column-gap: 20px;
+    grid-template-columns: repeat(3, 300px);
+    column-gap: 10px;
     row-gap: 100px;
     background-color: white;
     justify-content: center;
     position: relative;
 }
-@media screen and (max-width: 888px) {
+@media screen and (max-width: 950px) {
     .information{
-        grid-template-columns: repeat(auto-fit, 300px);
-        gap: 35px;
+        grid-template-columns: repeat(3, 250px);
         padding-top: 20px;
+        row-gap: 50px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .information{
-        grid-template-columns: repeat(auto-fit, 200px);
-        gap: 20px;
+        grid-template-columns: repeat(3, 180px);
     }
-    
+} 
+@media screen and (max-width: 600px) {
+    .information{
+        grid-template-columns: repeat(auto-fit, 150px);
+        column-gap: 5px;
+        row-gap: 20px;
+    }
 }

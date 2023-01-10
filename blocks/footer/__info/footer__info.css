@@ -3,5 +3,10 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+}
+@media screen and (max-width: 550px) {
+    .footer__info{
+        grid-column: span 2;
+        align-items: center;
+    }
 }

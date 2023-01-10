@@ -7,3 +7,10 @@
     object-fit: contain;
     object-position: center;
 }
+@media screen and (max-width: 750px) {
+    .footer__social-icon{
+        width: 10px;
+        height: 10px;
+    }
+    
+}
