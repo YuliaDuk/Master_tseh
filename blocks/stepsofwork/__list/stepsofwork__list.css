@@ -22,6 +22,6 @@
     .stepsofwork__list{
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
-        padding: 10px 8px 15px 8px;
+        padding: 10px 8px 30px 8px;
     }  
 }
