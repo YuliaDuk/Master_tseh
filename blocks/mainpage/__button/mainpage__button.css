@@ -42,3 +42,8 @@
     }
     
 }
+@media (hover: none){
+    .mainpage__button:hover{
+        cursor: pointer;
+    }
+}
