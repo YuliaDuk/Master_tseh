@@ -9,6 +9,8 @@
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/_nondisplay/header__link_nondisplay.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/button-popup/button-popup.css);
+@import url(../blocks/button-popup/__img/button-popup__img.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/mainpage/mainpage.css);
 @import url(../blocks/mainpage/__title/mainpage__title.css);
