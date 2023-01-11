@@ -5,12 +5,11 @@
     position: fixed;
     z-index: 5;
     background-color: transparent;
-    bottom: 250px;
+    bottom: 18%;
     left: calc(((100vw - 1280px)/2) + 20px);
 }
 @media screen and (max-width: 1280px) {
     .button-popup{
         left: 20px;
     }
-    
 }
