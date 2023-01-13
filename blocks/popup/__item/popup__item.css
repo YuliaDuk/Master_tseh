@@ -1,6 +1,6 @@
 .popup__item{
-    padding: 8px 2px;
-    margin: 20px 0 0 0;
+    padding: 5px 2px;
+    margin: 5px 0 0 0;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     font-size: 14px;
@@ -9,7 +9,6 @@
     letter-spacing: 0em;
     text-align: left;
     resize: none;
-    
 }
 .popup__item::-webkit-input-placeholder {color: rgba(0, 0, 0, 0.8);}
 .popup__item::-moz-placeholder          {color: rgba(0, 0, 0, 0.8);}

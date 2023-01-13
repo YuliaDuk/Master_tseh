@@ -9,20 +9,20 @@
     background-color: transparent;
     border: none;
     position: absolute;
-    top: -40px;
-    right: -40px;
+    top: -32px;
+    right: -32px;
     transition: 0.7s;
 }
 .popup__close-icon:hover{
     cursor: pointer;
     opacity: 0.6;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 @media screen and (max-width: 550px) {
     .popup__close-icon{
         width: 20px;
         height: 20px;
-        top: -36px;
+        top: -25px;
         right: 0;
     }
 }
