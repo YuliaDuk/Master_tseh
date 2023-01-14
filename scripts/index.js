@@ -21,10 +21,7 @@ async function formSend(e) {
     let formData = new FormData(form);
     if (error === 0){
         container.classList.add('popup__container_sending');
-        let response = await fetch('sendmail.php', {
-            method: 'POST',
-            body: formData
-        });
+        //сюда добавить код для отправки
         if (response.ok) {
             let result = await response.json();
             alert(result.message);
