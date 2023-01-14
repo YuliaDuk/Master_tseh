@@ -31,7 +31,7 @@ async function formSend(e) {
         } else {
             alert("Произошла ошибка");
             container.classList.remove('popup__container_sending');
-        }
+        }//
     } else {
         alert('Заполните обязательные поля');
     }
