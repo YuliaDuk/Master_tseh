@@ -1,0 +1,4 @@
+.popup__container_sending::after{
+    opacity: 1;
+    visibility: visible;
+}

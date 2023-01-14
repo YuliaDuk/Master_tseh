@@ -42,11 +42,11 @@
                 <div class="popup__container">
                     <button type="button" class="popup__close-icon"></button>
                     <h2 class="popup__name">Заполните форму и мы свяжемся с Вами в ближайшее время</h2>
-                    <form class="popup__form" name="red-form">
-                        <input type="text" name="name" class="popup__item popup__item_type_name" placeholder="Ваше имя" required>
-                        <input type="tel" name="telephone" class="popup__item popup__item_type_telephone" placeholder="Телефон для связи" required>
+                    <form method="post" class="popup__form" name="red-form">
+                        <input type="text" name="name" class="popup__item popup__item_req popup__item_type_name" placeholder="Ваше имя">
+                        <input type="tel" name="telephone" class="popup__item popup__item_req popup__item_type_telephone" placeholder="Телефон для связи">
                         <input type="email" name="email" class="popup__item popup__item_type_email" placeholder="e-mail (не обязательно)">
-                        <textarea rows="3" name="description" class="popup__item popup__item_type_description" placeholder="Опишите Вашу задачу" required></textarea>
+                        <textarea rows="2" name="description" class="popup__item popup__item_req popup__item_type_description" placeholder="Опишите Вашу задачу"></textarea>
                         <button type="submit" class="popup__button">Отправить</button>
                     </form>
                 </div>
@@ -94,26 +94,27 @@
                 </article>
             </section>
             <section class="information" id="information">
-                <div class="information__item">
+                <a href="http://www.wintech.ru/" target="_blank" class="information__item">
                     <img src="./images/icon1.png" alt="Профиль" class="information__icon">
                     <h2 class="information__title">Профиль ПВХ</h2>
-                    <p class="information__subtitle">профиль</p>
-                </div>
-                <div class="information__item">
+                    <p class="information__subtitle">Профиль</p>
+                </a>
+                <a href="https://www.guardianglass.com/eu/en" target="_blank" class="information__item">
                     <img src="./images/icon2.png" alt="Стеклопакет" class="information__icon">
                     <h2 class="information__title">Стеклопакеты</h2>
-                    <p class="information__subtitle">стекло</p>
-                </div>
+                    <p class="information__subtitle">Стекло</p>
+                </a>
+                <a href="https://www.roto-frank.com/ru/" target="_blank" class="information__item">
+                    <img src="./images/icon4.png" alt="Фурнитура" class="information__icon">
+                    <h2 class="information__title">фурнитура</h2>
+                    <p class="information__subtitle">От лучших немецких производителей</p>
+                </a>
                 <div class="information__item">
                     <img src="./images/icon3.png" alt="Рамы" class="information__icon">
                     <h2 class="information__title">Алюминиевые рамы</h2>
                     <p class="information__subtitle">Любого размера и конфигурации</p>
                 </div>
-                <div class="information__item">
-                    <img src="./images/icon4.png" alt="Фурнитура" class="information__icon">
-                    <h2 class="information__title">фурнитура</h2>
-                    <p class="information__subtitle">От лучших немецких производителей</p>
-                </div>
+                
                 <div class="information__item">
                     <img src="./images/icon5.png" alt="Документы" class="information__icon">
                     <h2 class="information__title">документы</h2>
