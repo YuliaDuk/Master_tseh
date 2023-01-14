@@ -3,7 +3,6 @@ let popupform = document.querySelector('.popup');
 let addbutton = document.querySelector('.button-popup');
 let closebutton = popupform.querySelector('.popup__close-icon');
 let bodyoverflow = document.querySelector('.body');
-let sendform = document.querySelector('.popup__form');
 function addForm(){
     popupform.classList.add('popup_opened');
 }
@@ -22,22 +21,24 @@ async function formSend(e) {
     let formData = new FormData(form);
     if (error === 0){
         container.classList.add('popup__container_sending');
-        for (var i=0; i < sendform.attributes.length; i++) {
-            if (sendform.attributes[i].nodeName == 'action') {
-            sendform.attributes[i].nodeValue = 'http://formspree.io/yule444ka1234@mail.ru';
-            break;
-            }
-        }
-        if (response.ok) {
-            let result = await response.json();
-            alert(result.message);
-            formPreview.innerHTML = '';
-            form.reset();
-            container.classList.remove('popup__container_sending');
-        } else {
-            alert("Произошла ошибка");
-            container.classList.remove('popup__container_sending');
-        }
+        form.setAttribute('action', 'http://formspree.io/yule444ka1234@mail.ru');
+
+        // for (var i=0; i < sendform.attributes.length; i++) {
+        //     if (sendform.attributes[i].nodeName == 'action') {
+        //     sendform.attributes[i].nodeValue = 'http://formspree.io/yule444ka1234@mail.ru';
+        //     break;
+        //     }
+        // }
+        // if (response.ok) {
+        //     let result = await response.json();
+        //     alert(result.message);
+        //     formPreview.innerHTML = '';
+        //     form.reset();
+        //     container.classList.remove('popup__container_sending');
+        // } else {
+        //     alert("Произошла ошибка");
+        //     container.classList.remove('popup__container_sending');
+        // }
     } else {
         alert('Заполните обязательные поля');
     }
