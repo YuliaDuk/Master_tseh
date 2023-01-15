@@ -23,6 +23,7 @@ async function formSend(e) {
         container.classList.add('popup__container_sending');
     } else {
         alert('Заполните обязательные поля');
+        submitted = false;
     }
 
 }
