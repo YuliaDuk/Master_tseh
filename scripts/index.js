@@ -20,7 +20,7 @@ function formSend(e) {
     let error = formValidate(form);
     let formData = new FormData(form);
     if (error === 0){
-        form.setAttribute('action', 'https://docs.google.com/forms/d/e/1FAIpQLSfBr9Y4sZx1-FtGF-eyifsaPOSGKVgqJgBkreQj4-sAJ0GSLA/formResponse?');
+        // form.setAttribute('action', 'https://docs.google.com/forms/d/e/1FAIpQLSfBr9Y4sZx1-FtGF-eyifsaPOSGKVgqJgBkreQj4-sAJ0GSLA/formResponse?');
         form.submit();
         form.reset();
         closeForm();
