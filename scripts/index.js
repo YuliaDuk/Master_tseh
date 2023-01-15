@@ -15,15 +15,17 @@ const container = document.querySelector('.popup__container');
 const form = document.querySelector('.popup__form');
 form.addEventListener('submit', formSend);
 
-async function formSend(e) {
-    e.preventDefault();
+function formSend(e) {
+    e.preventDefault(e);
     let error = formValidate(form);
     let formData = new FormData(form);
     if (error === 0){
-        container.classList.add('popup__container_sending');
+        form.setAttribute('action', 'https://docs.google.com/forms/d/e/1FAIpQLSfBr9Y4sZx1-FtGF-eyifsaPOSGKVgqJgBkreQj4-sAJ0GSLA/formResponse?');
+        form.submit();
+        form.reset();
+        closeForm();
     } else {
         alert('Заполните обязательные поля');
-        submitted = false;
     }
 
 }
