@@ -42,13 +42,14 @@
                 <div class="popup__container">
                     <button type="button" class="popup__close-icon"></button>
                     <h2 class="popup__name">Заполните форму и мы свяжемся с Вами в ближайшее время</h2>
-                    <form action ="http://formspree.io/yule444ka1234@mail.ru" method="POST" class="popup__form" name="red-form">
-                        <input type="text" name="name" class="popup__item popup__item_req popup__item_type_name" placeholder="Ваше имя">
-                        <input type="tel" name="telephone" class="popup__item popup__item_req popup__item_type_telephone" placeholder="Телефон для связи">
-                        <input type="email" name="email" class="popup__item popup__item_type_email" placeholder="e-mail (не обязательно)">
-                        <textarea rows="2" name="description" class="popup__item popup__item_req popup__item_type_description" placeholder="Опишите Вашу задачу"></textarea>
+                    <form class="popup__form" name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSfBr9Y4sZx1-FtGF-eyifsaPOSGKVgqJgBkreQj4-sAJ0GSLA/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+                        <input type="text" name="entry.767230131" id="entry.767230131" class="popup__item popup__item_req popup__item_type_name" placeholder="Ваше имя">
+                        <input type="tel" name="entry.1268190546" id="entry.1268190546" class="popup__item popup__item_req popup__item_type_telephone" placeholder="Телефон для связи">
+                        <input type="email" name="entry.638453695" id="entry.638453695" class="popup__item popup__item_type_email" placeholder="e-mail (не обязательно)">
+                        <textarea rows="2" name="entry.1096583247" id="entry.1096583247" class="popup__item popup__item_req popup__item_type_description" placeholder="Опишите Вашу задачу"></textarea>
                         <button type="submit" class="popup__button">Отправить</button>
                     </form>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
                 </div>
             </section>
             <section class="mainpage">
